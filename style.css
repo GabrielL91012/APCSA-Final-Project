@@ -139,5 +139,9 @@ section {
 
 .hwhite{
   background-color: white;
-  height: 100vh;
+  height: 40vh;
+}
+.hdarkblue{
+  background-color: #4169E1;
+  height: 30vh;
 }
