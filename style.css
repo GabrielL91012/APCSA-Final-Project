@@ -85,6 +85,17 @@ h1 {
   background-color: #1791cf;
   color: white;
 }
+.buttonLink2{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1791cf;
+  transition: 0.5s;
+  border-radius: 0px !important;
+}
+.buttonLink2:hover{
+  background-color: #1791cf;
+  color: white;
+}
 
 section { 
   height: 150vh; 
