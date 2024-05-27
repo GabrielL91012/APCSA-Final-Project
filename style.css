@@ -1,0 +1,132 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #1791cf;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 150px !important;
+  /*font-family:'Franklin Gothic Medium', Franklin Gothic, sans-serif;*/
+  font-family: Impact, sans-serif;
+  font-weight: 800;
+  color: #ffffff !important;
+}
+.h2 {
+  color: #ffffff;
+  border: 0;
+}
+.h2Title {
+  text-align: center;
+  font-size: 75px !important;
+  color: #ffffff !important;
+}
+.h2Sub {
+  font-size: 65px !important;
+  color: #000080 !important;
+}
+.p {
+  font-size: 20px;
+}
+.pSub {
+  color: #000080 !important;
+  font-size: 35px !important;
+}
+  .button {
+    background-color: #1791cf;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+  }
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.buttonLink1{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #1791cf;
+  transition: 0.5s;
+  border-radius: 0px !important;
+}
+.buttonLink1:hover{
+  background-color: #1791cf;
+  color: white;
+}
+
+section { 
+  height: 150vh; 
+}
+.tag {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+.tag.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.yellow { 
+  background-color: lightyellow;
+  margin: 0;
+  padding: 0;
+}
+.red { 
+  background-color: lightcoral; 
+  margin: 0;
+  padding: 0;
+}
+.blue { 
+  background-color: lightblue; 
+  margin: 0;
+  padding: 0;
+  height: 40vh;
+}
+.green { 
+  background-color: lightgreen; 
+  margin: 0;
+  padding: 0;
+}
+.hblue {
+  background-color: #1791cf;
+  height: 110vh;
+  margin: 0;
+  padding: 0;
+}
+
+.hwhite{
+  background-color: white;
+  height: 100vh;
+}

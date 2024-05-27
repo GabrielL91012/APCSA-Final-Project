@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>APCSA Final Project - Tutoring Website</title>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).on("scroll", function() {
+      var pageTop = $(document).scrollTop();
+      var pageBottom = pageTop + $(window).height();
+      var tags = $(".tag");
+
+      for (var i = 0; i < tags.length; i++) {
+        var tag = tags[i];
+        if ($(tag).position().top < pageBottom) {
+          $(tag).addClass("visible");
+        } else {
+          $(tag).removeClass("visible");
+        }
+      }
+    });
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div>
+  <section class="hblue">
+    <a href="index.html"><button class="button"><span>SpedLearning</span></button></a>
+  <a href="index.html"><button class="button"><span>Home</span></button></a>
+  <a href="algebra2.html"><button class="button"><span>Algebra 2 Guide</span></button></a>
+  <h1>14 DAY STUDY GUIDE WEBSITE</h1>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="d-flex justify-content-center">
+        <img src="https://core-docs.s3.amazonaws.com/martin_county_school_district%2C_fl_ar/article/image/large_1c004cb9-ebee-4c54-841d-7767d7cd569c.jpeg" class="align-middle" alt="Trophy" style="width:100%" height=900>
+          <div class="carousel-caption">
+              <p>#1 new tutoring site for the last hour!</p>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="item">
+        <div class="d-flex justify-content-center">
+        <img src="https://static6.depositphotos.com/1000674/655/i/950/depositphotos_6552258-stock-photo-good-grade.jpg" class="align-middle" alt="A+" style="width:100%" height=900>
+          <div class="carousel-caption">
+              <p>Guarantees at least a 2</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="d-flex justify-content-center">
+        <img src="https://www.itprotoday.com/sites/itprotoday.com/files/styles/article_featured_retina/public/bad%20code%20practices.jpg?itok=dJOuPoiu" class="align-middle" alt="Code" style="width:100%" height=900>
+          <div class="carousel-caption">
+            <p>Our Coding courses are the best!</p>
+            <a href="https://www.google.co.uk/" target="_blank"><button type="button" class="btn btn-default">Read More</button></a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <h2 class="h2 h2Title" style="text-align:center">Travis is convicted of embezzlement. Please support his cause</h2>
+</section>
+  </div>
+  <div>
+    <section class="blue">
+    <br>
+    <h2 class="h2 h2Sub">100% Satisfaction Rate</h2>
+    <p class="p pSub">Of the 2 people helped, all 2 have expressed their immense gratitude for the ability to participate in this course, allowing them to achieve high marks on future exams within the course</p>
+    <button class="button buttonLink1">Start your first course today!</button>  
+  </section>
+
+  </div>
+  <div>
+    <section class="hwhite">
+      <h2 class="h2 h2Sub" style="text-align: right;">Courses Available</h2>
+      <p class="p pSub">We offer many courses. However, because we are new to the industry our size is quite small for the time being. More courses are being developed to satisfy customer needs</p>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
