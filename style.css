@@ -12,7 +12,6 @@ h1 {
   text-align: center;
   font-size: 150px !important;
   /*font-family:'Franklin Gothic Medium', Franklin Gothic, sans-serif;*/
-  font-family: Impact, sans-serif;
   font-weight: 800;
   color: #ffffff !important;
 }
@@ -76,10 +75,12 @@ h1 {
 }
 .buttonLink1{
   background-color: white; 
+  height:64px !important;
+  width:288px !important;
   color: black; 
   border: 2px solid #1791cf;
   transition: 0.5s;
-  border-radius: 0px !important;
+  border-radius: 5px !important;
 }
 .buttonLink1:hover{
   background-color: #1791cf;
@@ -87,10 +88,12 @@ h1 {
 }
 .buttonLink2{
   background-color: white; 
+  height:64px !important;
+  width:288px !important;
   color: black; 
   border: 2px solid #1791cf;
   transition: 0.5s;
-  border-radius: 0px !important;
+  border-radius: 5px !important;
 }
 .buttonLink2:hover{
   background-color: #1791cf;
@@ -108,6 +111,9 @@ section {
 .tag.visible {
   opacity: 1;
   transform: translate(0, 0);
+}
+.white {
+  background-color: white;
 }
 .yellow { 
   background-color: lightyellow;
@@ -144,4 +150,10 @@ section {
 .hdarkblue{
   background-color: #4169E1;
   height: 30vh;
+}
+.hblue2 {
+  background-color: #1791cf;
+  height: 25vh;
+  margin: 0;
+  padding: 0;
 }
