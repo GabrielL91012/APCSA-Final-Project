@@ -10,7 +10,7 @@ body {
 
 h1 {
   text-align: center;
-  font-size: 150px !important;
+  font-size: 100px !important;
   /*font-family:'Franklin Gothic Medium', Franklin Gothic, sans-serif;*/
   font-weight: 800;
   color: #ffffff !important;
@@ -129,7 +129,7 @@ section {
   background-color: lightblue; 
   margin: 0;
   padding: 0;
-  height: 40vh;
+  height: 15%;
 }
 .green { 
   background-color: lightgreen; 
@@ -138,18 +138,18 @@ section {
 }
 .hblue {
   background-color: #1791cf;
-  height: 110vh;
+  height: 200%;
   margin: 0;
   padding: 0;
 }
 
 .hwhite{
   background-color: white;
-  height: 40vh;
+  height: 10%;
 }
 .hdarkblue{
   background-color: #4169E1;
-  height: 30vh;
+  height: 10%;
 }
 .hblue2 {
   background-color: #1791cf;
