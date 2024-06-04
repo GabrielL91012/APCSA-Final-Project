@@ -114,6 +114,7 @@ section {
 }
 .white {
   background-color: white;
+  height: 200%;
 }
 .yellow { 
   background-color: lightyellow;
@@ -153,7 +154,7 @@ section {
 }
 .hblue2 {
   background-color: #1791cf;
-  height: 25vh;
+  height: 15%;
   margin: 0;
   padding: 0;
 }
