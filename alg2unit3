@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Travis Study Website - Algebra 2 - Unit 3</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <a href="index.html"><button class="button"><span>SpedLearning</span></button></a>
+  <a href="index.html"><button class="button"><span>Home</span></button></a>
+  <section class="hblue2">
+    <h1 style="font-family: Arial, sans-serif">Unit 3 --> Polynomial Factorization</h1>
+  </section>
+  <section class="white">
+    <pre>
+      <h3>Factoring Monomials</h3>
+      <p>
+          This simply is a combination of the processes of unit 2. Use those to determine the answers for factoring. Make sure to find the GCF when factoring to factor to the smallest number possibly
+
+          Examples:
+          1) 45y^6 = (5y)(9y^5)
+          2) GCF of 35y^7 and 7y^5 = 7y^5
+        
+     </p>
+     <h3>Factoring Polynomials</h3>
+    <p>
+          Same as factoring monomials except it is with more terms so simply find GCF of all terms
+
+          Examples:
+          1) 18x^7 + 36(x^3)(y^5) = (18x^3)(x^4 + y^5)
+          2) GCF of 72(x^5) + 20 and 31x^3 + y^2 + 18 is x^2 + 2
+    </p>
+      <h3>Geometric Series</h3>
+      <p>
+         A geometric series is a series that increases by multiplying each term by the same constant
+         The formula for this is a + ar + ar2 + ar3 + ... in which r3 would be the ratio to the third power.
+        
+      </p>
+    </pre>
+  </section>
+  <button style="position: left"><a href="alg2unit1.html">Unit 1/a></button>
+  <button style="position: right"><a href="alg2unit3.html">Unit 3</a></button>
+  
+
+</body>
+
+</html>
